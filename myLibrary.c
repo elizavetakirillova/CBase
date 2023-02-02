@@ -8,9 +8,9 @@ int main()
 	printf("Введите размер массива: ");
 	scanf("%d", &answer);
 	
-	int *ptr;
+	int *ptr1;
 	
-	ptr = (int *)malloc(answer * sizeof(int));
+	ptr1 = (int *)malloc(answer * sizeof(int));
 
 	return 0;
 }
